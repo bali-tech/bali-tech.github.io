@@ -5,7 +5,7 @@ title: About
 
 ## About the Author
 
-Welcome! I’m [Your Name], a curious reader, observer, and writer with a deep interest in understanding how ideas, history, culture, and current events shape the world around us.
+Welcome! I’m Baliram Kale, a curious reader and an observer with a deep interest in understanding how ideas, history, culture, and current events shape the world around us.
 
 My interests span across history, politics, geography, society, cinema, literature, classical music, ghazals, and poetry. Through this blog, I explore these subjects not as isolated topics, but as interconnected threads that influence thought, identity, and public discourse. Some pieces are analytical, some reflective, and others simply observations shaped by reading, listening, and watching closely.
 

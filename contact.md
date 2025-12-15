@@ -1,13 +1,3 @@
----
-layout: default
-title: Contact
----
-
----
-layout: default
-title: Contact
----
-
 ## Get In Touch
 
 Have questions, feedback, or want to collaborate? I'd love to hear from you. You can reach out to me through any of the channels below.

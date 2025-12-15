@@ -21,13 +21,13 @@
 }
 
 body {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
   line-height: 1.7;
   color: var(--text-color);
   background-color: var(--bg-color);
   margin: 0;
   transition: background-color 0.3s, color 0.3s;
-  background-image: url('../img/background.jpg');
+  background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3a8034');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -110,6 +110,16 @@ img {
   list-style: none;
   padding: 0;
 }
+
+.social-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-links a {
+  font-size: 1.8em;
+}
+
 .footer-bottom {
   margin-top: 20px;
   text-align: center;
