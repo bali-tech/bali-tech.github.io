@@ -5,14 +5,16 @@ title: About
 
 ## About the Author
 
-Welcome! I'm [Your Name], a passionate writer and analyst focusing on Indian politics, history, and governance. My goal with this platform is to provide insightful, well-researched commentary that encourages informed public discourse.
+Welcome! I’m [Your Name], a curious reader, observer, and writer with a deep interest in understanding how ideas, history, culture, and current events shape the world around us.
 
-With a background in [Your Field, e.g., Political Science, Economics, etc.], I strive to break down complex topics into accessible articles for everyone, especially the youth of India who are shaping our future.
+My interests span across history, politics, geography, society, cinema, literature, classical music, ghazals, and poetry. Through this blog, I explore these subjects not as isolated topics, but as interconnected threads that influence thought, identity, and public discourse. Some pieces are analytical, some reflective, and others simply observations shaped by reading, listening, and watching closely.
+
+This platform serves as a personal space to document perspectives, question narratives, review art and films, connect the past with the present, and engage with ideas that matter — without claiming final authority or absolute conclusions.
 
 ### Ideology & Disclaimer
 
-The views and opinions expressed on this blog are my own and do not represent any organization or entity with which I may be affiliated.
+The views expressed on this blog are personal opinions formed through independent reading, observation, and reflection. They do not represent any organization, institution, or individual I may be associated with.
 
-The content is for informational and educational purposes only. It is not intended to promote hatred, incite violence, or malign any individual, group, or community. The primary aim is to foster constructive dialogue and critical thinking.
+All content is intended for informational, educational, and discussion purposes only. It is not meant to promote hatred, incite violence, or target any individual, group, religion, or community. The objective is to encourage critical thinking, respectful dialogue, and thoughtful engagement with diverse viewpoints.
 
-Thank you for reading.
+Thank you for taking the time to read.
