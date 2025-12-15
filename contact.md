@@ -3,12 +3,17 @@ layout: default
 title: Contact
 ---
 
+---
+layout: default
+title: Contact
+---
+
 ## Get In Touch
 
-Have questions, feedback, or want to collaborate? I'd love to hear from you.
+Have questions, feedback, or want to collaborate? I'd love to hear from you. You can reach out to me through any of the channels below.
 
-You can reach me via email. I'll do my best to respond in a timely manner.
+- **Name:** {{ site.author }}
+- **Email:** <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+- **Phone:** <a href="tel:{{ site.contact_number }}">{{ site.contact_number }}</a>
 
-**Email:** <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-
-Please note that this is a personal blog, and I am not available for professional consultations through this channel.
+I'll do my best to respond in a timely manner.

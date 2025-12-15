@@ -13,25 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your Blog Name
-email: your-email@yourdomain.in
+title: Reflections & Reviews
+email: baliramkale12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog about political commentary, Indian history, governance analysis,
-  and youth awareness.
+  This platform is dedicated to examining contemporary issues through context, history, and reason. It features essays, commentary, and reviews across politics, news, culture, and cinema, with a focus on depth, clarity, and critical inquiry.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yourdomain.in" # the base hostname & protocol for your site, e.g. http://example.com
-author: Your Name
-twitter_username: your_twitter_handle
-github_username:  your_github_handle
+author: Baliram Kale
+contact_number: +91 7798336622
 
 # Social Links
 social:
-  - name: Twitter
-    url: https://twitter.com/your_twitter_handle
-  - name: GitHub
-    url: https://github.com/your_github_handle
   - name: LinkedIn
-    url: https://www.linkedin.com/in/your_linkedin_profile
+    url: https://www.linkedin.com/in/baliram-kale
+  - name: Instagram
+    url: https://www.instagram.com/houseofthemigraines
 
 # Build settings
 markdown: kramdown
@@ -65,7 +61,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Your Name"
+      author: "Baliram Kale"
   - scope:
       path: ""
     values:
@@ -81,11 +77,11 @@ navigation:
   - title: Home
     url: /
   - title: Blog
-    url: /blog/
+    url: /blog.html
   - title: About
-    url: /about/
+    url: /about.html
   - title: Contact
-    url: /contact/
+    url: /contact.html
 
 # Categories
 categories:
