@@ -10,21 +10,20 @@ title: Blog
     <span>Filter by category:</span>
     <a href="{{ "/blog/" | relative_url }}" class="category-link">All</a>
     {% for category in site.categories %}
-      <a href="#{{ category | slugify }}" class="category-link">{{ category }}</a>
+      <a href="#{{ category[0] | slugify }}" class="category-link">{{ category[0] }}</a>
     {% endfor %}
   </div>
 
   <div class="post-list-by-category">
     {% for post in site.posts %}
-      <div class="post-item" data-category="{{ post.category | slugify }}">
-        <h2 class="post-title">
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        <p class="post-meta">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-          • <span>{{ post.category }}</span>
-        </p>
-        <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+                <div class="post-item" data-category="{{ post.categories | first | slugify }}">
+                  <h2 class="post-title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                  </h2>
+                  <p class="post-meta">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                    • <span>{{ post.categories | join: ", " }}</span>
+                  </p>        <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
       </div>
     {% endfor %}
   </div>
