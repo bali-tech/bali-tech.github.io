@@ -1,0 +1,65 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="blog-page">
+  <h1 class="page-heading">All Posts</h1>
+
+  <div class="category-filters">
+    <span>Filter by category:</span>
+    <a href="{{ "/blog/" | relative_url }}" class="category-link">All</a>
+    {% for category in site.categories %}
+      <a href="#{{ category | slugify }}" class="category-link">{{ category }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="post-list-by-category">
+    {% for post in site.posts %}
+      <div class="post-item" data-category="{{ post.category | slugify }}">
+        <h2 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        <p class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+          • <span>{{ post.category }}</span>
+        </p>
+        <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const categoryLinks = document.querySelectorAll('.category-link');
+  const postItems = document.querySelectorAll('.post-item');
+
+  function filterPosts(category) {
+    postItems.forEach(item => {
+      if (category === 'all' || item.dataset.category === category) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+
+  categoryLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const category = this.getAttribute('href').substring(1);
+      filterPosts(category);
+      window.location.hash = category;
+    });
+  });
+
+  // Check for hash on page load
+  if (window.location.hash) {
+    const initialCategory = window.location.hash.substring(1);
+    filterPosts(initialCategory);
+  } else {
+    filterPosts('all');
+  }
+});
+</script>

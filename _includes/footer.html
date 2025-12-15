@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <p>{{ site.description }}</p>
+      </div>
+      <div class="footer-col">
+        <h3>Connect</h3>
+        <ul class="social-links">
+          {% for social in site.social %}
+            <li><a href="{{ social.url }}" target="_blank" rel="noopener">{{ social.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+      <p class="disclaimer">Views expressed are personal opinions and not intended to promote hatred or violence.</p>
+    </div>
+  </div>
+</footer>
