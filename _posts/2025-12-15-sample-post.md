@@ -2,8 +2,8 @@
 layout: post
 title: "Understanding the Foundation of Indian Governance"
 date: 2025-12-15 10:00:00 +0530
-author: "Your Name"
-category: "Governance"
+author: "Baliram Kale"
+category: "Politics"
 ---
 
 This is a sample blog post to demonstrate how content is structured in your new Jekyll blog. Writing and publishing new articles is straightforward.
